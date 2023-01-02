@@ -1,0 +1,1 @@
+https://hackernoon.com/using-prismjs-as-a-syntax-highlighter-in-react
