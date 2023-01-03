@@ -1,14 +1,14 @@
 import React from 'react'
 import { Grid, Typography, Box, Card, CardContent } from "@mui/material";
 
-const Resources = () => {
+const DivideAndConquer = () => {
   return (
     <Grid container sx={{ justifyContent: "center" }}>
-    <Grid item xs={10}>
-      <Typography variant='h4'>Resources</Typography>
+      <Grid item xs={10}>
+        <Typography variant='h4'>Divide and Conquer</Typography>
+      </Grid>
     </Grid>
-  </Grid>
   )
 }
 
-export default Resources
+export default DivideAndConquer

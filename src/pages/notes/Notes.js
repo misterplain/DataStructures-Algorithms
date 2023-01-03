@@ -1,35 +1,15 @@
 import React, { useEffect } from "react";
 import PrismCode from "../../components/PrismCode";
-
-const JSCode = `const App = props => {
-  return (
-    <div>
-      <h1> Prism JS </h1>
-      <div>Awesome Syntax Highlighter</div>
-    </div>
-  );
-};
-`;
-
-const htmlCode = `
-    <div>
-      <h1> PrismJS Tutorial </h1>
-      <p>
-      Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind.
-      </p>
-    </div>
-`;
-
+import { Grid, Typography } from "@mui/material";
 
 const Notes = () => {
-
-
   return (
-    <div>
-      <PrismCode code={JSCode} language="javascript" />
-      <PrismCode code={htmlCode} language="html" />
-    </div>
-  )
-}
+    <Grid container sx={{ justifyContent: "center" }}>
+      <Grid item xs={10}>
+        <Typography variant='h4'>Notes</Typography>
+      </Grid>
+    </Grid>
+  );
+};
 
-export default Notes
+export default Notes;
