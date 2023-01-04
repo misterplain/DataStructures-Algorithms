@@ -1,5 +1,6 @@
 import React from 'react'
 import { Grid, Typography, Box, Card, CardContent } from "@mui/material";
+import PrismCode from "../../components/PrismCode";
 
 const MultiplePointers = () => {
   return (
